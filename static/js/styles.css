@@ -1,0 +1,197 @@
+/* Set the size of the canvas */
+
+  /* Style the canvas border */
+.canvasD {
+  position: relative;
+  border: 2px solid #5f5a5a;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  background-color:aliceblue;
+    
+    
+  }
+.input-groupmb-3 {
+  background-color: blanchedalmond; 
+  border-radius: 20px;
+  width: 60%;
+  padding: 10px;
+  margin-left: 18%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  
+  }
+.input-group{
+  display: inline-block;
+  text-align: center;
+}
+.form-group{
+  display: inline-block;
+  text-align: center;
+}
+.divForIndexButton {
+    
+  background-color: blanchedalmond; 
+  display:inline-block; 
+  border-radius: 20px;
+  margin-bottom: 5%;
+  padding: 5px;
+    
+  }
+  
+  .toolTipDesign {
+    background: rgba(255, 154, 71, .7);
+    border-radius: 10px;
+    border: 1px solid black; /* sets the border to 1 pixel wide and black */
+    width: 400px; /* sets the width of the div to 300 pixels */
+    padding: 10px; /* adds 10 pixels of padding inside the border */
+    overflow-wrap: break-word; /* allows the text to wrap within the div */
+    position:relative;
+    pointer-events:none;
+    opacity: 1;
+    display: inline-block;
+    transition: all .1s ease;
+    block-size: fit-content;
+    
+
+  }
+  .headerDiv{
+    border-radius: 250px;
+    background-color:aliceblue ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2em ;
+ border: 5px solid;
+  border-color: black;}
+  h1 {
+      
+      margin-left: auto;
+      margin-right: auto;
+      background: gray;
+      text-align: center;
+  }
+  .imgC{
+    padding-top: 7%;
+    display: inline-block;
+  }
+    
+  
+  .toolTipUL {
+    border-radius: 10px;
+    margin: 0;
+    list-style: none;
+    padding:0;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+  }
+  .canvDiv {
+    width: 1100px;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 25%;
+    padding-bottom: 10%;
+    flex:1;
+    
+    
+  }
+  .masterDiv{
+    text-align: center;
+  }
+  .lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  .lds-ripple div {
+    position: absolute;
+    border: 4px solid #fff;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  .lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+  }
+  @keyframes lds-ripple {
+    0% {
+      top: 90px;
+      left: 90px;
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+    4.9% {
+      top: 90px;
+      left: 90px;
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+    5% {
+      top: 90px;
+      left: 90px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+      width: 180px;
+      height: 180px;
+      opacity: 0;
+    }
+  }
+  .sidebar {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .sidebar h2 {
+    color: grey;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    border: 3px solid grey;
+    padding: 10px;
+    background-color: #cbffd8;
+  }
+  .sidebar li:hover{
+    background-color: #c7d3fc;
+  }
+  
+  .sidebar a {
+    color: grey;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .sidebar a:hover {
+    color: #051b65;
+  }
+ 
+  
+  
+  
+  /* Style the canvas container */
+
+ 

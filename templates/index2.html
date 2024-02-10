@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head style="background-color:grey;">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="module" src="{{ url_for('static', filename='js/StartingChart.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/Product.js') }}"></script>
+        <script type="module" src="{{ url_for('static', filename='js/Chart.js') }}"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+        <title class="headerDiv">Price Compare</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='js/styles.css') }}" type="text/css">
+        
+    </head>
+    <body style="background-color:grey;">
+        <div  id="main-container" style="height: 100%">
+            <div style="text-align: center;">
+                
+                <div>
+                    
+                        
+                            <h1 id="heading"><span class="headerDiv">Price Compare</span></h1>
+                           
+                            
+                                <div class="input-group" id="ld">
+                                    
+                                        <div class="form-group" >
+                                            <div class="input-groupmb-3" style="padding-bottom: 8px;">
+                                            <label for="sites">Choose sites to include:</label>
+                                            <select name="sites" id="sites">
+                                                <option value="amzn">Amazon</option>
+                                                <option value="ebay">Ebay</option>
+                                                <option value="etsy">Etsy</option>
+                                                <option value="all">All</option>
+                                            </select>
+                                                <input id="product" type="text" class="form-control" placeholder="product" name="product" required/>
+                                                <button id="myBtn">Submit</button>
+                                            </div>
+                                        </div>
+                                
+                                        
+                                        
+
+                        
+            
+                                    <br>
+                                </div>
+                                
+                                <div class="canvDiv" id="divFCanv">
+                                    <div class="sidebar" id="sBar">
+                                        <h2>Menu</h2>
+                                        <ul>
+                                          <li><a href="/selectProduct">Select Products</a></li>
+                                          <li><a href="#"></a></li>
+                                          <li><a href="#"></a></li>
+                                          <li><a href="#"></a></li>
+                                        </ul>
+                                    </div>
+                                    <canvas id="myChart" >
+                                        
+                                    </canvas>
+                                    
+                                </div> 
+                                
+                                <div id="buttonDiv">
+                                
+                                    <span id="bar">
+                                        
+                                    </span>
+                                    <div id="indexStuff">
+                                        
+                                    </div>
+                                </div>
+                               
+                                
+                                
+                        
+                        
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    </body>
+    <!--<a href="https://www.flaticon.com/free-icons/analytics" title="analytics icons">Analytics icons created by Freepik - Flaticon</a> -->
+    
+    
+</html>
